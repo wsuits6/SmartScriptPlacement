@@ -2,14 +2,14 @@
 //by wsuits6
 //============================================
 
-// 
+
 
 //selecting  button
 
 const button = document.getElementById("btn");
-const para  = document.getElementById("paragraph")
+const para  = document.getElementById("paragraph");
 
 //Creating Event listener Funtion
-button.addEventListener(onclick, () => {
-    para.innerText = "Javascript is running"
+button.addEventListener("click", () => {
+    para.innerText = "Javascript is running";
 })
